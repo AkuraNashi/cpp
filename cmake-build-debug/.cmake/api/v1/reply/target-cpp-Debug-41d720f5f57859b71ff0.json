@@ -672,7 +672,9 @@
 				358,
 				359,
 				361,
-				362
+				362,
+				364,
+				365
 			]
 		}
 	],
@@ -936,7 +938,9 @@
 				358,
 				359,
 				361,
-				362
+				362,
+				364,
+				365
 			]
 		},
 		{
@@ -3074,6 +3078,18 @@
 			"backtrace" : 1,
 			"path" : "cpp01/ex04/sar.hpp",
 			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cpp01/ex05/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cpp01/ex05/harl.cpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

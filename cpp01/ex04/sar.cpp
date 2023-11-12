@@ -1,7 +1,5 @@
 #include "sar.hpp"
 
-#include <utility>
-
 bool AskUser()
 {
 	std::string userInput;

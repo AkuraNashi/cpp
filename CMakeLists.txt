@@ -414,4 +414,4 @@ add_executable(cpp
         cpp01/ex03/Weapon.hpp
         cpp01/ex04/main.cpp
         cpp01/ex04/sar.cpp
-        cpp01/ex04/sar.hpp)
+        cpp01/ex04/sar.hpp cpp01/ex05/main.cpp cpp01/ex05/harl.cpp)
