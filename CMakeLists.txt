@@ -1,0 +1,417 @@
+cmake_minimum_required(VERSION 3.25)
+project(cpp)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(cpp00/ex01)
+include_directories(cpp00/tmp/examens/CPP_Module_01)
+include_directories(cpp00/tmp/examens/CPP_Module_02)
+include_directories(cpp00/tmp/examens/CPP_Module_03)
+include_directories(cpp00/tmp/examens/s1)
+include_directories(cpp00/tmp/examens/s2)
+include_directories(cpp00/tmp/examens/s3)
+include_directories(cpp00/tmp/Module00/ex01)
+include_directories(cpp00/tmp/Module00/ex02)
+include_directories(cpp00/tmp/Module01/ex00)
+include_directories(cpp00/tmp/Module01/ex01)
+include_directories(cpp00/tmp/Module01/ex03)
+include_directories(cpp00/tmp/Module01/ex04)
+include_directories(cpp00/tmp/Module01/ex05)
+include_directories(cpp00/tmp/Module01/ex06)
+include_directories(cpp00/tmp/Module02/ex00)
+include_directories(cpp00/tmp/Module02/ex01)
+include_directories(cpp00/tmp/Module02/ex02)
+include_directories(cpp00/tmp/Module03/ex00)
+include_directories(cpp00/tmp/Module03/ex01)
+include_directories(cpp00/tmp/Module03/ex02)
+include_directories(cpp00/tmp/Module03/ex03)
+include_directories(cpp00/tmp/Module04/ex00)
+include_directories(cpp00/tmp/Module04/ex01)
+include_directories(cpp00/tmp/Module04/ex02)
+include_directories(cpp00/tmp/Module04/ex03)
+include_directories(cpp00/tmp/Module05/ex00)
+include_directories(cpp00/tmp/Module05/ex01)
+include_directories(cpp00/tmp/Module05/ex02)
+include_directories(cpp00/tmp/Module05/ex03)
+include_directories(cpp00/tmp/Module06/ex00)
+include_directories(cpp00/tmp/Module06/ex01)
+include_directories(cpp00/tmp/Module06/ex02)
+include_directories(cpp00/tmp/Module07/ex00)
+include_directories(cpp00/tmp/Module07/ex01)
+include_directories(cpp00/tmp/Module07/ex02)
+include_directories(cpp00/tmp/Module08/ex00)
+include_directories(cpp00/tmp/Module08/ex01)
+include_directories(cpp00/tmp/Module08/ex02)
+include_directories(cpp00/tmp/Module09/ex00)
+include_directories(cpp00/tmp/Module09/ex01)
+include_directories(cpp00/tmp/Module09/ex02)
+include_directories(cpp01/ex00)
+include_directories(cpp01/ex01)
+include_directories(cpp01/ex03)
+include_directories(cpp01/ex04)
+
+add_executable(cpp
+        cpp00/cmake-build-debug/Testing/Temporary/LastTest.log
+        cpp00/cmake-build-debug/build.ninja
+        cpp00/cmake-build-debug/cmake_install.cmake
+        cpp00/cmake-build-debug/CMakeCache.txt
+        cpp00/ex00/Makefile
+        cpp00/ex00/megaphone
+        cpp00/ex00/megaphone.cpp
+        cpp00/ex00/megaphone.o
+        cpp00/ex01/Contact.cpp
+        cpp00/ex01/Contact.hpp
+        cpp00/ex01/Contact.o
+        cpp00/ex01/main.cpp
+        cpp00/ex01/main.o
+        cpp00/ex01/Makefile
+        cpp00/ex01/phonebook
+        cpp00/ex01/Phonebook.cpp
+        cpp00/ex01/Phonebook.hpp
+        cpp00/ex01/Phonebook.o
+        cpp00/tmp/examens/CPP_Module_01/main.cpp
+        cpp00/tmp/examens/CPP_Module_01/Warlock.cpp
+        cpp00/tmp/examens/CPP_Module_01/Warlock.hpp
+        cpp00/tmp/examens/CPP_Module_02/ASpell.cpp
+        cpp00/tmp/examens/CPP_Module_02/ASpell.hpp
+        cpp00/tmp/examens/CPP_Module_02/ATarget.cpp
+        cpp00/tmp/examens/CPP_Module_02/ATarget.hpp
+        cpp00/tmp/examens/CPP_Module_02/Dummy.cpp
+        cpp00/tmp/examens/CPP_Module_02/Dummy.hpp
+        cpp00/tmp/examens/CPP_Module_02/Fwoosh.cpp
+        cpp00/tmp/examens/CPP_Module_02/Fwoosh.hpp
+        cpp00/tmp/examens/CPP_Module_02/main.cpp
+        cpp00/tmp/examens/CPP_Module_02/Warlock.cpp
+        cpp00/tmp/examens/CPP_Module_02/Warlock.hpp
+        cpp00/tmp/examens/CPP_Module_03/ASpell.cpp
+        cpp00/tmp/examens/CPP_Module_03/ASpell.hpp
+        cpp00/tmp/examens/CPP_Module_03/ATarget.cpp
+        cpp00/tmp/examens/CPP_Module_03/ATarget.hpp
+        cpp00/tmp/examens/CPP_Module_03/BrickWall.cpp
+        cpp00/tmp/examens/CPP_Module_03/BrickWall.hpp
+        cpp00/tmp/examens/CPP_Module_03/Dummy.cpp
+        cpp00/tmp/examens/CPP_Module_03/Dummy.hpp
+        cpp00/tmp/examens/CPP_Module_03/Fireball.cpp
+        cpp00/tmp/examens/CPP_Module_03/Fireball.hpp
+        cpp00/tmp/examens/CPP_Module_03/Fwoosh.cpp
+        cpp00/tmp/examens/CPP_Module_03/Fwoosh.hpp
+        cpp00/tmp/examens/CPP_Module_03/main.cpp
+        cpp00/tmp/examens/CPP_Module_03/Polymorph.cpp
+        cpp00/tmp/examens/CPP_Module_03/Polymorph.hpp
+        cpp00/tmp/examens/CPP_Module_03/SpellBook.cpp
+        cpp00/tmp/examens/CPP_Module_03/SpellBook.hpp
+        cpp00/tmp/examens/CPP_Module_03/TargetGenerator.cpp
+        cpp00/tmp/examens/CPP_Module_03/TargetGenerator.hpp
+        cpp00/tmp/examens/CPP_Module_03/Warlock.cpp
+        cpp00/tmp/examens/CPP_Module_03/Warlock.hpp
+        cpp00/tmp/examens/s1/main.cpp
+        cpp00/tmp/examens/s1/Warlock.cpp
+        cpp00/tmp/examens/s1/Warlock.hpp
+        cpp00/tmp/examens/s2/ASpell.cpp
+        cpp00/tmp/examens/s2/ASpell.hpp
+        cpp00/tmp/examens/s2/ATarget.cpp
+        cpp00/tmp/examens/s2/ATarget.hpp
+        cpp00/tmp/examens/s2/Dummy.cpp
+        cpp00/tmp/examens/s2/Dummy.hpp
+        cpp00/tmp/examens/s2/Fwoosh.cpp
+        cpp00/tmp/examens/s2/Fwoosh.hpp
+        cpp00/tmp/examens/s2/main.cpp
+        cpp00/tmp/examens/s2/Warlock.cpp
+        cpp00/tmp/examens/s2/Warlock.hpp
+        cpp00/tmp/examens/s3/ASpell.cpp
+        cpp00/tmp/examens/s3/ASpell.hpp
+        cpp00/tmp/examens/s3/ATarget.cpp
+        cpp00/tmp/examens/s3/ATarget.hpp
+        cpp00/tmp/examens/s3/BrickWall.cpp
+        cpp00/tmp/examens/s3/BrickWall.hpp
+        cpp00/tmp/examens/s3/Dummy.cpp
+        cpp00/tmp/examens/s3/Dummy.hpp
+        cpp00/tmp/examens/s3/Fireball.cpp
+        cpp00/tmp/examens/s3/Fireball.hpp
+        cpp00/tmp/examens/s3/Fwoosh.cpp
+        cpp00/tmp/examens/s3/Fwoosh.hpp
+        cpp00/tmp/examens/s3/main.cpp
+        cpp00/tmp/examens/s3/Polymorph.cpp
+        cpp00/tmp/examens/s3/Polymorph.hpp
+        cpp00/tmp/examens/s3/SpellBook.cpp
+        cpp00/tmp/examens/s3/SpellBook.hpp
+        cpp00/tmp/examens/s3/TargetGenerator.cpp
+        cpp00/tmp/examens/s3/TargetGenerator.hpp
+        cpp00/tmp/examens/s3/Warlock.cpp
+        cpp00/tmp/examens/s3/Warlock.hpp
+        cpp00/tmp/examens/subjects/1-subject.txt
+        cpp00/tmp/examens/subjects/2-subject.txt
+        cpp00/tmp/examens/subjects/3-subject.txt
+        cpp00/tmp/Module00/ex00/Makefile
+        cpp00/tmp/Module00/ex00/megaphone.cpp
+        cpp00/tmp/Module00/ex01/Contact.cpp
+        cpp00/tmp/Module00/ex01/Contact.hpp
+        cpp00/tmp/Module00/ex01/main.cpp
+        cpp00/tmp/Module00/ex01/Makefile
+        cpp00/tmp/Module00/ex01/Phonebook.cpp
+        cpp00/tmp/Module00/ex01/Phonebook.hpp
+        cpp00/tmp/Module00/ex02/Account.cpp
+        cpp00/tmp/Module00/ex02/Account.hpp
+        cpp00/tmp/Module00/ex02/logs
+        cpp00/tmp/Module00/ex02/Makefile
+        cpp00/tmp/Module00/ex02/tests.cpp
+        cpp00/tmp/Module00/CPP_Module00.pdf
+        cpp00/tmp/Module00/README.md
+        cpp00/tmp/Module01/ex00/main.cpp
+        cpp00/tmp/Module01/ex00/Makefile
+        cpp00/tmp/Module01/ex00/newZombie.cpp
+        cpp00/tmp/Module01/ex00/randomChump.cpp
+        cpp00/tmp/Module01/ex00/Zombie.cpp
+        cpp00/tmp/Module01/ex00/Zombie.hpp
+        cpp00/tmp/Module01/ex01/main.cpp
+        cpp00/tmp/Module01/ex01/Makefile
+        cpp00/tmp/Module01/ex01/Zombie.cpp
+        cpp00/tmp/Module01/ex01/Zombie.hpp
+        cpp00/tmp/Module01/ex01/zombieHorde.cpp
+        cpp00/tmp/Module01/ex02/main.cpp
+        cpp00/tmp/Module01/ex02/Makefile
+        cpp00/tmp/Module01/ex03/HumanA.cpp
+        cpp00/tmp/Module01/ex03/HumanA.hpp
+        cpp00/tmp/Module01/ex03/HumanB.cpp
+        cpp00/tmp/Module01/ex03/HumanB.hpp
+        cpp00/tmp/Module01/ex03/main.cpp
+        cpp00/tmp/Module01/ex03/Makefile
+        cpp00/tmp/Module01/ex03/Weapon.cpp
+        cpp00/tmp/Module01/ex03/Weapon.hpp
+        cpp00/tmp/Module01/ex04/colors.hpp
+        cpp00/tmp/Module01/ex04/main.cpp
+        cpp00/tmp/Module01/ex04/Makefile
+        cpp00/tmp/Module01/ex04/test
+        cpp00/tmp/Module01/ex04/zizi
+        cpp00/tmp/Module01/ex05/colors.hpp
+        cpp00/tmp/Module01/ex05/Harl.cpp
+        cpp00/tmp/Module01/ex05/Harl.hpp
+        cpp00/tmp/Module01/ex05/main.cpp
+        cpp00/tmp/Module01/ex05/Makefile
+        cpp00/tmp/Module01/ex06/colors.hpp
+        cpp00/tmp/Module01/ex06/Harl.cpp
+        cpp00/tmp/Module01/ex06/Harl.hpp
+        cpp00/tmp/Module01/ex06/main.cpp
+        cpp00/tmp/Module01/ex06/Makefile
+        cpp00/tmp/Module01/CPP_Module01.pdf
+        cpp00/tmp/Module01/README.md
+        cpp00/tmp/Module02/ex00/Fixed.cpp
+        cpp00/tmp/Module02/ex00/Fixed.hpp
+        cpp00/tmp/Module02/ex00/main.cpp
+        cpp00/tmp/Module02/ex00/Makefile
+        cpp00/tmp/Module02/ex01/Fixed.cpp
+        cpp00/tmp/Module02/ex01/Fixed.hpp
+        cpp00/tmp/Module02/ex01/main.cpp
+        cpp00/tmp/Module02/ex01/Makefile
+        cpp00/tmp/Module02/ex02/Fixed.cpp
+        cpp00/tmp/Module02/ex02/Fixed.hpp
+        cpp00/tmp/Module02/ex02/main.cpp
+        cpp00/tmp/Module02/ex02/Makefile
+        cpp00/tmp/Module02/CPP_Module02.pdf
+        cpp00/tmp/Module02/README.md
+        cpp00/tmp/Module03/ex00/ClapTrap.cpp
+        cpp00/tmp/Module03/ex00/ClapTrap.hpp
+        cpp00/tmp/Module03/ex00/colors.hpp
+        cpp00/tmp/Module03/ex00/main.cpp
+        cpp00/tmp/Module03/ex00/Makefile
+        cpp00/tmp/Module03/ex01/ClapTrap.cpp
+        cpp00/tmp/Module03/ex01/ClapTrap.hpp
+        cpp00/tmp/Module03/ex01/colors.hpp
+        cpp00/tmp/Module03/ex01/main.cpp
+        cpp00/tmp/Module03/ex01/Makefile
+        cpp00/tmp/Module03/ex01/ScavTrap.cpp
+        cpp00/tmp/Module03/ex01/ScavTrap.hpp
+        cpp00/tmp/Module03/ex02/ClapTrap.cpp
+        cpp00/tmp/Module03/ex02/ClapTrap.hpp
+        cpp00/tmp/Module03/ex02/colors.hpp
+        cpp00/tmp/Module03/ex02/FragTrap.cpp
+        cpp00/tmp/Module03/ex02/FragTrap.hpp
+        cpp00/tmp/Module03/ex02/main.cpp
+        cpp00/tmp/Module03/ex02/Makefile
+        cpp00/tmp/Module03/ex02/ScavTrap.cpp
+        cpp00/tmp/Module03/ex02/ScavTrap.hpp
+        cpp00/tmp/Module03/ex03/ClapTrap.cpp
+        cpp00/tmp/Module03/ex03/ClapTrap.hpp
+        cpp00/tmp/Module03/ex03/colors.hpp
+        cpp00/tmp/Module03/ex03/DiamondTrap.cpp
+        cpp00/tmp/Module03/ex03/DiamondTrap.hpp
+        cpp00/tmp/Module03/ex03/FragTrap.cpp
+        cpp00/tmp/Module03/ex03/FragTrap.hpp
+        cpp00/tmp/Module03/ex03/main.cpp
+        cpp00/tmp/Module03/ex03/Makefile
+        cpp00/tmp/Module03/ex03/ScavTrap.cpp
+        cpp00/tmp/Module03/ex03/ScavTrap.hpp
+        cpp00/tmp/Module03/CPP_Module03.pdf
+        cpp00/tmp/Module03/README.md
+        cpp00/tmp/Module04/ex00/Animal.cpp
+        cpp00/tmp/Module04/ex00/Animal.hpp
+        cpp00/tmp/Module04/ex00/Cat.cpp
+        cpp00/tmp/Module04/ex00/Cat.hpp
+        cpp00/tmp/Module04/ex00/Colors.hpp
+        cpp00/tmp/Module04/ex00/Dog.cpp
+        cpp00/tmp/Module04/ex00/Dog.hpp
+        cpp00/tmp/Module04/ex00/main.cpp
+        cpp00/tmp/Module04/ex00/Makefile
+        cpp00/tmp/Module04/ex00/WrongAnimal.cpp
+        cpp00/tmp/Module04/ex00/WrongAnimal.hpp
+        cpp00/tmp/Module04/ex00/WrongCat.cpp
+        cpp00/tmp/Module04/ex00/WrongCat.hpp
+        cpp00/tmp/Module04/ex01/Animal.cpp
+        cpp00/tmp/Module04/ex01/Animal.hpp
+        cpp00/tmp/Module04/ex01/Brain.cpp
+        cpp00/tmp/Module04/ex01/Brain.hpp
+        cpp00/tmp/Module04/ex01/Cat.cpp
+        cpp00/tmp/Module04/ex01/Cat.hpp
+        cpp00/tmp/Module04/ex01/Colors.hpp
+        cpp00/tmp/Module04/ex01/Dog.cpp
+        cpp00/tmp/Module04/ex01/Dog.hpp
+        cpp00/tmp/Module04/ex01/main.cpp
+        cpp00/tmp/Module04/ex01/Makefile
+        cpp00/tmp/Module04/ex02/AAnimal.cpp
+        cpp00/tmp/Module04/ex02/AAnimal.hpp
+        cpp00/tmp/Module04/ex02/Brain.cpp
+        cpp00/tmp/Module04/ex02/Brain.hpp
+        cpp00/tmp/Module04/ex02/Cat.cpp
+        cpp00/tmp/Module04/ex02/Cat.hpp
+        cpp00/tmp/Module04/ex02/Colors.hpp
+        cpp00/tmp/Module04/ex02/Dog.cpp
+        cpp00/tmp/Module04/ex02/Dog.hpp
+        cpp00/tmp/Module04/ex02/main.cpp
+        cpp00/tmp/Module04/ex02/Makefile
+        cpp00/tmp/Module04/ex03/AMateria.cpp
+        cpp00/tmp/Module04/ex03/AMateria.hpp
+        cpp00/tmp/Module04/ex03/Character.cpp
+        cpp00/tmp/Module04/ex03/Character.hpp
+        cpp00/tmp/Module04/ex03/Cure.cpp
+        cpp00/tmp/Module04/ex03/Cure.hpp
+        cpp00/tmp/Module04/ex03/Ice.cpp
+        cpp00/tmp/Module04/ex03/Ice.hpp
+        cpp00/tmp/Module04/ex03/ICharacter.hpp
+        cpp00/tmp/Module04/ex03/IMateriaSource.hpp
+        cpp00/tmp/Module04/ex03/main.cpp
+        cpp00/tmp/Module04/ex03/Makefile
+        cpp00/tmp/Module04/ex03/MateriaSource.cpp
+        cpp00/tmp/Module04/ex03/MateriaSource.hpp
+        cpp00/tmp/Module04/CPP_Module04.pdf
+        cpp00/tmp/Module04/README.md
+        cpp00/tmp/Module05/ex00/Bureaucrat.cpp
+        cpp00/tmp/Module05/ex00/Bureaucrat.hpp
+        cpp00/tmp/Module05/ex00/main.cpp
+        cpp00/tmp/Module05/ex00/Makefile
+        cpp00/tmp/Module05/ex01/Bureaucrat.cpp
+        cpp00/tmp/Module05/ex01/Bureaucrat.hpp
+        cpp00/tmp/Module05/ex01/Form.cpp
+        cpp00/tmp/Module05/ex01/Form.hpp
+        cpp00/tmp/Module05/ex01/main.cpp
+        cpp00/tmp/Module05/ex01/Makefile
+        cpp00/tmp/Module05/ex02/AForm.cpp
+        cpp00/tmp/Module05/ex02/AForm.hpp
+        cpp00/tmp/Module05/ex02/Bureaucrat.cpp
+        cpp00/tmp/Module05/ex02/Bureaucrat.hpp
+        cpp00/tmp/Module05/ex02/main.cpp
+        cpp00/tmp/Module05/ex02/Makefile
+        cpp00/tmp/Module05/ex02/PresidentialPardonForm.cpp
+        cpp00/tmp/Module05/ex02/PresidentialPardonForm.hpp
+        cpp00/tmp/Module05/ex02/RobotomyRequestForm.cpp
+        cpp00/tmp/Module05/ex02/RobotomyRequestForm.hpp
+        cpp00/tmp/Module05/ex02/ShrubberyCreationForm.cpp
+        cpp00/tmp/Module05/ex02/ShrubberyCreationForm.hpp
+        cpp00/tmp/Module05/ex03/AForm.cpp
+        cpp00/tmp/Module05/ex03/AForm.hpp
+        cpp00/tmp/Module05/ex03/Bureaucrat.cpp
+        cpp00/tmp/Module05/ex03/Bureaucrat.hpp
+        cpp00/tmp/Module05/ex03/Intern.cpp
+        cpp00/tmp/Module05/ex03/Intern.hpp
+        cpp00/tmp/Module05/ex03/main.cpp
+        cpp00/tmp/Module05/ex03/Makefile
+        cpp00/tmp/Module05/ex03/PresidentialPardonForm.cpp
+        cpp00/tmp/Module05/ex03/PresidentialPardonForm.hpp
+        cpp00/tmp/Module05/ex03/RobotomyRequestForm.cpp
+        cpp00/tmp/Module05/ex03/RobotomyRequestForm.hpp
+        cpp00/tmp/Module05/ex03/ShrubberyCreationForm.cpp
+        cpp00/tmp/Module05/ex03/ShrubberyCreationForm.hpp
+        cpp00/tmp/Module05/CPP_Module05.pdf
+        cpp00/tmp/Module05/README.md
+        cpp00/tmp/Module06/ex00/main.cpp
+        cpp00/tmp/Module06/ex00/Makefile
+        cpp00/tmp/Module06/ex00/ScalarConversion.cpp
+        cpp00/tmp/Module06/ex00/ScalarConversion.hpp
+        cpp00/tmp/Module06/ex01/Data.cpp
+        cpp00/tmp/Module06/ex01/Data.hpp
+        cpp00/tmp/Module06/ex01/main.cpp
+        cpp00/tmp/Module06/ex01/Makefile
+        cpp00/tmp/Module06/ex02/Base.hpp
+        cpp00/tmp/Module06/ex02/main.cpp
+        cpp00/tmp/Module06/ex02/Makefile
+        cpp00/tmp/Module06/CPP_Module06.pdf
+        cpp00/tmp/Module06/README.md
+        cpp00/tmp/Module07/ex00/Awesome.hpp
+        cpp00/tmp/Module07/ex00/main.cpp
+        cpp00/tmp/Module07/ex00/Makefile
+        cpp00/tmp/Module07/ex00/whatever.hpp
+        cpp00/tmp/Module07/ex01/Awesome.hpp
+        cpp00/tmp/Module07/ex01/iter.hpp
+        cpp00/tmp/Module07/ex01/main.cpp
+        cpp00/tmp/Module07/ex01/Makefile
+        cpp00/tmp/Module07/ex02/Array.hpp
+        cpp00/tmp/Module07/ex02/Array.tpp
+        cpp00/tmp/Module07/ex02/Awesome.hpp
+        cpp00/tmp/Module07/ex02/main.cpp
+        cpp00/tmp/Module07/ex02/Makefile
+        cpp00/tmp/Module07/CPP_Module07.pdf
+        cpp00/tmp/Module07/README.md
+        cpp00/tmp/Module08/ex00/easyfind.hpp
+        cpp00/tmp/Module08/ex00/main.cpp
+        cpp00/tmp/Module08/ex00/Makefile
+        cpp00/tmp/Module08/ex01/main.cpp
+        cpp00/tmp/Module08/ex01/Makefile
+        cpp00/tmp/Module08/ex01/Span.cpp
+        cpp00/tmp/Module08/ex01/Span.hpp
+        cpp00/tmp/Module08/ex02/main.cpp
+        cpp00/tmp/Module08/ex02/Makefile
+        cpp00/tmp/Module08/ex02/MutantStack.hpp
+        cpp00/tmp/Module08/CPP_Module08.pdf
+        cpp00/tmp/Module08/README.md
+        cpp00/tmp/Module09/ex00/BitcoinExchange.cpp
+        cpp00/tmp/Module09/ex00/BitcoinExchange.hpp
+        cpp00/tmp/Module09/ex00/colors.hpp
+        cpp00/tmp/Module09/ex00/data.csv
+        cpp00/tmp/Module09/ex00/input.csv
+        cpp00/tmp/Module09/ex00/main.cpp
+        cpp00/tmp/Module09/ex00/Makefile
+        cpp00/tmp/Module09/ex00/README.md
+        cpp00/tmp/Module09/ex00/test.csv
+        cpp00/tmp/Module09/ex01/main.cpp
+        cpp00/tmp/Module09/ex01/Makefile
+        cpp00/tmp/Module09/ex01/README.md
+        cpp00/tmp/Module09/ex01/RPN.cpp
+        cpp00/tmp/Module09/ex01/RPN.hpp
+        cpp00/tmp/Module09/ex02/main.cpp
+        cpp00/tmp/Module09/ex02/Makefile
+        cpp00/tmp/Module09/ex02/PmergeMe.cpp
+        cpp00/tmp/Module09/ex02/PmergeMe.hpp
+        cpp00/tmp/Module09/ex02/README.md
+        cpp00/tmp/Module09/ex02/whatever.hpp
+        cpp00/tmp/Module09/CPP_Module09.pdf
+        cpp00/tmp/Module09/README.md
+        cpp00/CMakeLists.txt
+        cpp01/ex00/main.cpp
+        cpp01/ex00/newZombie.cpp
+        cpp01/ex00/randomChump.cpp
+        cpp01/ex00/Zombie.cpp
+        cpp01/ex00/Zombie.hpp
+        cpp01/ex01/main.cpp
+        cpp01/ex01/Zombie.cpp
+        cpp01/ex01/Zombie.hpp
+        cpp01/ex01/zombieHorde.cpp
+        cpp01/ex02/main.cpp
+        cpp01/ex03/HumanA.cpp
+        cpp01/ex03/HumanA.hpp
+        cpp01/ex03/HumanB.cpp
+        cpp01/ex03/HumanB.hpp
+        cpp01/ex03/main.cpp
+        cpp01/ex03/Weapon.cpp
+        cpp01/ex03/Weapon.hpp
+        cpp01/ex04/main.cpp
+        cpp01/ex04/sar.cpp
+        cpp01/ex04/sar.hpp)
