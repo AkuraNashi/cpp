@@ -1,10 +1,10 @@
 CC = g++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SOURCES = main.cpp Fixed.cpp
+SOURCES = main.cpp ClapTrap.cpp ScavTrap.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
-NAME = orthodox
+NAME = claptrap
 
 all: $(NAME)
 

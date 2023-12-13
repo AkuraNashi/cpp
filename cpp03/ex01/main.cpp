@@ -1,23 +1,20 @@
-#include "Fixed.hpp"
+#include "ScavTrap.hpp"
 
-int main(void)
+int	main(void)
 {
-	Fixed a;
-	Fixed const b(10);
-	Fixed const c(42.42f);
-	Fixed const d(b);
+	ClapTrap	master;
+	ScavTrap	scav;
 
-	a = Fixed(1234.4321f);
-	std::cout << std::endl;
-	std::cout << "a is " << a << std::endl;
-	std::cout << "b is " << b << std::endl;
-	std::cout << "c is " << c << std::endl;
-	std::cout << "d is " << d << std::endl;
-	std::cout << std::endl;
-	std::cout << "a is " << a.toInt() << " as integer" << std::endl;
-	std::cout << "b is " << b.toInt() << " as integer" << std::endl;
-	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
-	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
-	std::cout << std::endl;
+	std::cout << master << std::endl;
+	std::cout << scav << std::endl;
+
+	scav.guardGate();
+	scav.attack("youyou");
+	scav.takeDamage(5);
+
+	master.attack("bernardo");
+
+	std::cout << scav << std::endl;
+	std::cout << master << std::endl;
 	return 0;
 }
